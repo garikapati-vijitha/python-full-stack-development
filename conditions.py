@@ -372,12 +372,12 @@ else:
     print("False")'''
 
 # if else condition by using logical operations(and, or, not) for integer
-a = 3
+'''a = 3
 b = 6
 if a<b and b>a:
     print("true")
 else:
-    print("False")
+    print("False")'''
 
 # run time input
 '''a = int(input("value of a: "))

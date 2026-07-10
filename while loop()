@@ -1,0 +1,110 @@
+#while loop()
+'''a=10
+while a>1:
+    print(a)'''
+
+'''a=10
+while a<1:
+    print(a)'''
+
+'''a=10
+while a>1:
+    print(a)
+    a=a-1'''
+
+'''a=20
+while a>3:
+    print(a)
+    a=a-1'''
+
+'''a=20
+while a>3:
+    a=a-1
+    print(a)'''
+
+'''a=20
+while a>3:
+    a=a-1
+print(a)'''
+
+
+'''a=40
+while a>5:
+    a=a-1
+print(a)'''
+
+'''a=30
+while a>1:
+    print(a)
+    a+=1'''
+
+'''a=10
+while a>2:
+    print(a)
+    a-=1'''
+
+'''a=30
+while a>1:
+    print(a)
+    a-=1'''
+
+'''a=1
+while a<25:
+    print(a)
+    a+=1'''
+
+#real time example
+#bakery
+'''while True:
+    bakery = int(input("price:"))
+    if bakery == 1200:
+        print("redvelvet cake")
+    elif bakery == 100:
+        print("almond cake")
+    elif bakery ==800:
+      print("choclate cake")
+    elif bakery == 600:
+     print("butter scotch cake")
+    else:
+        print("cake is not available")'''
+
+#voting
+'''while True:
+    a=int(input("age:"))
+    if a>=18:
+        print("eligible for vote")
+    else:
+        print("not eligible for vote")'''
+
+
+#range()
+#start-stop-step
+
+'''for i in range(20):
+    print(i)'''
+        
+'''for i in range(13,35):
+    print(i)'''
+   
+'''for i in range(0,30,3):
+    print(i,end=" ")'''
+
+'''for i in range(5,50,5):
+    print(i,end=" ")'''
+
+'''for i in range(2,20,2):
+    print(i,end=" ")'''
+
+#grade code
+while True:
+    marks=int(input("enter the marks:"))
+    if marks in range(91,101):
+        print("Grade-A")
+    elif marks in range (81,91):
+        print("Grade-B")
+    elif marks in range (71,81):
+        print("Grade-c")
+    elif marks in range (61,71):
+        print("Grade-D")
+    else:
+        print("fail")

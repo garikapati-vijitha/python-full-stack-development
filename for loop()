@@ -1,0 +1,103 @@
+#loops()
+#for,while,range,break,continue,pass
+#for loop()
+
+'''a=[20,30,40,50]
+for i in a:
+    print(i)'''
+
+
+'''a=[20,30,40,50]
+for i in a:
+    print(a)'''
+
+'''a=[20,30,40,50]
+for i in a:
+    print(i,end=" ")'''
+
+'''a=[20,30,40,50]
+for i in a:
+    print(i)
+print(type(a))
+print(type(i))'''
+
+
+'''a=(2,3,4,5,6)
+for i in a:
+    print(i)
+print(type(a))
+print(type(i))'''
+
+
+'''a={2,3,4,5,6}
+for i in a:
+    print(i)
+print(type(a))
+print(type(i))'''
+
+
+'''a={"year":2026,"month":"july","date":9}
+for i in a:
+    print(i)
+    print(type(a))
+    print(type(i))
+for i in a.keys():
+    print(i)
+for i in a.values():
+    print(i)
+    print(type(a))
+    print(type(i))
+for i in a.items():
+    print(i)
+    print(type(a))
+    print(type(i))'''
+
+
+'''a="codegnan"
+for i in a:
+    print(i)'''
+
+
+'''b=[2.3,4.5,6.1]
+for i in b:
+    print(i)
+    print(type(b))
+    print(type(i))'''
+
+
+'''b=["python","java","c","c++"]
+for i in b:
+    print(i)
+    print(type(b))
+    print(type(i))'''
+
+'''b=[2+3j,4+5j]
+for i in b:
+    print(i)
+    print(type(b))
+    print(type(i))'''
+
+'''b=[True,False]
+for i in b:
+    print(i)
+    print(type(b))
+    print(type(i))'''
+
+#task
+'''fruits=["apple","banana","mango"]
+
+b=str(fruits)
+print(b.upper())'''
+
+'''for i in fruits:
+    print(i.upper(),end=" ")'''
+
+'''b=[]
+for i in fruits:
+    b.append(i.upper())
+print(b)'''
+
+#[1, 3, 5, 7, 9, 'code', 'c', 'o', 'd', 'e']
+a=[1,3,5,7,9,"code"]
+a.extend("code")
+print(a)

@@ -103,19 +103,3 @@ if card == "c":
         print("incorrect password")
 else:
     print("invalid card")'''
-
-#
-#
-
-
-
-
-
-
-
-
-
-
-
-
-

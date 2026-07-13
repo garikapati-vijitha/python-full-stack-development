@@ -77,3 +77,45 @@ while a>10:
     if i==10:
         pass
     print(i)'''
+
+# real world project experience
+# ATM APPLICATION
+'''account = 100000
+pwd=1234
+card=input("insert the card")
+if card == "c":
+    print("welcome vijitha")
+    password=int(input("enter the password"))
+    if password==pwd:
+        option=int(input("""choose the option
+                            1.balance enquire
+                            2.withdraw"""))
+        if option==1:
+            print("acc balance is",account)
+        elif option==2:
+            money=int(input("enter the amount"))
+            print(money)
+            balance=account-money
+            print("The remaining amount is",balance)
+        else:
+            print("invalid option")
+    else:
+        print("incorrect password")
+else:
+    print("invalid card")'''
+
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+

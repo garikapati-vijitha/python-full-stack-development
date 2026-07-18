@@ -419,3 +419,127 @@ final(*data,**details)'''
         else:
             ("ticket")
     Railway()'''
+
+# global and local variables (or) scope of the variables
+# variable inside and outside the function is called gobal and local variables
+# a variable is define above the function and is accessable to the entire global space is called global variable 
+# varible inside the function is called local variable
+# usage of global key word
+# when user want to access the global variable inside the function directly and carry forward the update value even outside the function then we need to use "global" keyword 
+
+
+
+# first case of global variable
+'''a=4
+def check():
+    print("inside value is : ",a)
+check()
+print("outside value is : ",a)'''
+
+# second case of global variable
+'''a = 2
+def check1():
+    a=5
+    a=a**2
+    print("inside value is: ",a)
+check1()
+print("outside value is: ",a)'''
+
+# third case of both local and global variables
+'''a=6
+def check2():
+    a=8
+    print("inside value is: ",a)
+    a=10
+    print("updated value is: ",a+5)
+    b=13
+    b=b+a
+    print("value of b is",b)
+check2()
+print("a value is: ",a)
+print("b value is: ",b)''' # this line will give the error coz variable is not declared
+
+# usage of global keyword 
+'''a=4
+def final():
+    global a,b
+    print("inside value is : ",a)
+    a=15
+    print("outside value is : ",a)
+    # global b
+    b = 20
+    b = b+a
+    print("Value of b is", b)
+final()
+print("a value is ", a)
+print("b value is ", b)'''
+
+# Attendence Tracker
+'''students = int(input("Enter total student: "))
+p=0
+a=0
+for i in range(1,students+1):
+    attendence=input(f"student {i} present/absent")
+    if attendence =='p':
+        p+=1
+    elif attendence =='a':
+        a+=1
+print("...............attendence report...................")  
+print("total students",students)
+print("number of students present",p)
+print("number of students absent"a)'''
+
+'''n=int(input("Enter number: "))      
+for row in range(n):
+    for column in range(row+1):
+        print("* ",end=" ")
+    print()''' # 1 right angle triangle
+
+    
+'''n = int(input("Enter number: "))
+for i in range(4,0,-1):
+    for j in range(i):
+        print("*",end = " ")
+    print()''' # 2 reverse
+    
+'''n=int(input("Enter number: "))
+for i in range(n):
+    for j in range(n):
+        print("*", end=" ")
+    print()''' # 3 square
+
+
+'''n = 4
+for i in range(n):
+    for j in range(2,i+3):
+        print(j,end= " ")
+    print()
+'''
+
+'''
+n = 4
+for i in range(2,n+2):
+    for j in range(2,i+1):
+        print(j,end= " ")
+    print()'''
+
+n = 4
+for row in range(n):
+    for column in range(row+1):
+        for k in range(2*column ):
+            print("*",end=" ")
+        print()
+    print()
+
+
+
+
+
+
+
+
+
+
+
+
+

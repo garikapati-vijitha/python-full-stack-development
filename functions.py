@@ -530,16 +530,3 @@ for row in range(n):
             print("*",end=" ")
         print()
     print()
-
-
-
-
-
-
-
-
-
-
-
-
-

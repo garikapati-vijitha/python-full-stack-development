@@ -2,9 +2,7 @@
 # directory -> collection of files
 # ASCII -> chr() , ord()
 
-
 #print(dir("__builtins__"))
-
 # fromkeys
 '''a = "codegnan"
 print(a)
@@ -21,7 +19,6 @@ c["d"] = "python"
 print(c)'''
  
 #eval()
-
 '''while True:
     a = int(input("a value: "))
     b = int(input("b value: "))
@@ -72,11 +69,9 @@ names = ["vijitha","srujana","yashu","sunitha"]
 #b = tuple(enumberate(names,100))
 #b = dict(enumberate(names,1000))
 
-
 # ASCII
 # chr()
 # ord()
-
 '''print(chr(65))
 print(chr(90))
 print(chr(92))
@@ -97,30 +92,3 @@ for i in range(97,123):
 '''a = input("enter the name: ")
 for i in a:
     print(i, ord(i))'''
-
-
-#bmi
-h = int(input("enter the height: "))
-w = float(input("enter the weight: "))
-a = c*c
-b = w/c
-if b == 18.5:
-    print("under weight")
-elif b >= 18.5 and b <= 24.5:
-    print("Healthy weight")
-elif b > 24.5 and b <= 29.5:
-    print("Over Weight")
-elif b >= 30:
-    print("Obesity")
- 
-
-
-
-
-
-
-
-
-
-
-
